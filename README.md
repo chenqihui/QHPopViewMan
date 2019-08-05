@@ -6,7 +6,7 @@
 
 其实是针对 动画 的统一封装，这里主要使用 UIView 的 animation，但是由于封装，可以方便扩展其他动画，如修改为 Keyframe 等，具体可以参考 [iOS 核心动画高级技巧 | RyuukuSpace](http://chenqihui.github.io/2018/08/23/iOS-%E6%A0%B8%E5%BF%83%E5%8A%A8%E7%94%BB%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7/)。
 
-另外该工具也针对 UI 比较常用的三种，分别是：Frame、Autolayout & Masonry。
+另外该工具也针对 UI 布局比较常用的三种，分别是：Frame、Autolayout & Masonry 进行适配 & 实现。
 
 ## create
 
