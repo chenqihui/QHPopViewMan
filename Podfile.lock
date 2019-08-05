@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - QHModules (0.0.1):
+    - Masonry
+
+DEPENDENCIES:
+  - Masonry
+  - QHModules (from `QHModules`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  QHModules:
+    :path: QHModules
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  QHModules: 93c2b489f440a92fa8397230a0fcbb6b7fc92d10
+
+PODFILE CHECKSUM: 516365a062bfff0017bec11a391646706ad64ab7
+
+COCOAPODS: 1.5.3

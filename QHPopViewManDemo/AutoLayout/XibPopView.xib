@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XibPopView" customModule="QHPopViewMan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="890"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yWq-S0-bpR" userLabel="bgV">
+                    <rect key="frame" x="0.0" y="0.0" width="416" height="890"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29936322773972601" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yt3-Tg-7g4" userLabel="CView">
+                    <rect key="frame" x="0.0" y="0.0" width="416" height="890"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8mV-33-Tnf">
+                            <rect key="frame" x="0.0" y="445" width="416" height="445"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to xib's space" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGC-Wg-6FN">
+                                    <rect key="frame" x="0.0" y="0.0" width="416" height="445"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.81568627449999997" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="qGC-Wg-6FN" firstAttribute="height" secondItem="8mV-33-Tnf" secondAttribute="height" id="0Hp-Og-Qi1"/>
+                                <constraint firstAttribute="bottom" secondItem="qGC-Wg-6FN" secondAttribute="bottom" id="cno-91-8F6"/>
+                                <constraint firstAttribute="trailing" secondItem="qGC-Wg-6FN" secondAttribute="trailing" id="fld-4T-9eU"/>
+                                <constraint firstItem="qGC-Wg-6FN" firstAttribute="leading" secondItem="8mV-33-Tnf" secondAttribute="leading" id="pod-Ys-Bxz"/>
+                                <constraint firstItem="qGC-Wg-6FN" firstAttribute="top" secondItem="8mV-33-Tnf" secondAttribute="top" id="yRr-Ff-u8C"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="8mV-33-Tnf" firstAttribute="leading" secondItem="yt3-Tg-7g4" secondAttribute="leading" id="B7a-vb-EOM"/>
+                        <constraint firstItem="8mV-33-Tnf" firstAttribute="height" secondItem="yt3-Tg-7g4" secondAttribute="height" multiplier="1:2" id="TiN-f8-Eqb"/>
+                        <constraint firstAttribute="trailing" secondItem="8mV-33-Tnf" secondAttribute="trailing" id="VyH-wY-D29"/>
+                        <constraint firstAttribute="bottom" secondItem="8mV-33-Tnf" secondAttribute="bottom" id="baj-sA-FvB"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Fva-el-gxF" appends="YES" id="UjG-uB-3nh"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="yWq-S0-bpR" secondAttribute="trailing" id="5kn-lA-5FY"/>
+                <constraint firstItem="yt3-Tg-7g4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7Jw-Zx-P0R"/>
+                <constraint firstItem="yWq-S0-bpR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Caq-Xy-Blg"/>
+                <constraint firstAttribute="trailing" secondItem="yt3-Tg-7g4" secondAttribute="trailing" id="JRt-jS-pAx"/>
+                <constraint firstItem="yWq-S0-bpR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KzK-RE-nVm"/>
+                <constraint firstAttribute="bottom" secondItem="yt3-Tg-7g4" secondAttribute="bottom" id="P28-df-hmr"/>
+                <constraint firstItem="yt3-Tg-7g4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Vo1-bJ-i8P"/>
+                <constraint firstAttribute="bottom" secondItem="yWq-S0-bpR" secondAttribute="bottom" id="ZeF-1O-Gf3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="popV" destination="8mV-33-Tnf" id="YY0-8f-a5K"/>
+                <outlet property="popVBottomLC" destination="baj-sA-FvB" id="7ek-KR-FI5"/>
+            </connections>
+            <point key="canvasLocation" x="139.13043478260872" y="119.86607142857142"/>
+        </view>
+        <tapGestureRecognizer id="Fva-el-gxF">
+            <connections>
+                <action selector="tapCloseAction:" destination="iN0-l3-epB" id="xyJ-sT-ZjG"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>
